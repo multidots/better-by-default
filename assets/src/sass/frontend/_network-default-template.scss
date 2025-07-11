@@ -1,0 +1,36 @@
+// Network Page CSS
+.network-wrapper.alignfull {
+    height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-position: center !important;
+    .wp-block-group {
+        margin-left: 0 !important;
+        margin-top: -50px;
+        .wp-block-heading {
+            color: #fff;
+            font-size: clamp(
+                2.5rem,
+                2.5rem + ((1vw - 0.2rem) * 1.283),
+                3.27rem
+            ) !important;
+        }
+        p {
+            color: #fff;
+            line-height: 30px;
+        }
+    }
+}
+.page-netwrok-site {
+    main.wp-block-group {
+        margin: 0;
+        > .wp-block-group:first-of-type,
+        > .wp-block-spacer {
+            display: none;
+        }
+        > .wp-block-post-content {
+            margin: 0;
+        }
+    }
+}

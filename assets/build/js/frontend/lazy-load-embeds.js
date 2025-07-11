@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelectorAll("iframe[data-src]"),t=e=>{e.src=e.dataset.src,e.classList.remove("lazy")};if("IntersectionObserver"in window){const r=new IntersectionObserver((e=>{e.forEach((e=>{e.isIntersecting&&(t(e.target),r.unobserve(e.target))}))}));e.forEach((e=>{r.observe(e)}))}else e.forEach((e=>t(e)))}));

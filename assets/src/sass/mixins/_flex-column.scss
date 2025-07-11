@@ -1,0 +1,22 @@
+// Flex Column
+$columnSize: ( "30": 30%, "40": 40%, "60": 60%, "70": 70%);
+
+@mixin column-Count {
+  @each $key, $value in $columnSize {
+	.u-flex-basis-#{$key} {
+		flex-basis: $value;
+	}
+	
+	@include media-breakpoint( min-768 ) {
+	  .u-flex-basis-md-#{$key} {
+		flex-basis: $value;
+	  }
+	}
+
+	@include media-breakpoint( min-992 ) {
+		.u-flex-basis-lg-#{$key} {
+			flex-basis: $value;
+		}
+	}
+  }
+}

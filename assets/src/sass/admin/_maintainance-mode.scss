@@ -1,0 +1,17 @@
+#wp-admin-bar-maintenance_mode { 
+    background-color: #ff800c !important;
+    transition: .25s;
+	& > .ab-item { 
+		color: #fff !important;  
+		&:before { 
+			content: "\f308"; 
+			top: 2px; 
+			color: #fff !important; 
+			margin-right: 0px; 
+		}
+	}
+	&:hover > .ab-item { 
+		background-color: #e5730a !important; 
+		color: #fff; 
+	}
+}
