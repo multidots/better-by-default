@@ -1,0 +1,103 @@
+/* CSS styles here are for the maintenance page set through miscellaneous >> Maintenance Mode */
+* {
+	box-sizing: border-box;
+}
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.page-overlay {
+	position: absolute;
+	display: block;
+	z-index: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	background-attachment: fixed;
+	background-size: cover;
+	.message-box {
+		position: relative;
+		display: flex;
+		z-index: 1;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		font-family: "Arial", "Helvetica", sans-serif;
+		text-align: center;
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 600px;
+		}
+		h1 {
+			font-size: 3em;
+			font-weight: 600;
+			margin-top: 0;
+			margin-bottom: 10px;
+			p {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		}
+		.description {
+			font-size: 1.25em;
+			line-height: 1.7;
+		}
+	}
+	@media screen and (max-width: 920px) {
+		.message-box {
+			width: 100%;
+			padding: 0 15%;
+			h1 {
+				font-size: 2em;
+			}
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.message-box {
+			width: 100%;
+			padding: 0 40px;
+			h1 {
+				font-size: 1.5em;
+			}
+			.description {
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+#wp-admin-bar-maintenance_mode {
+	background-color: #ff800c !important;
+	transition: 0.25s;
+	& > .ab-item {
+		color: #fff !important;
+		&:before {
+			content: "\f308";
+			top: 2px;
+			color: #fff !important;
+			margin-right: 0px;
+		}
+	}
+	&:hover > .ab-item {
+		background-color: #e5730a !important;
+		color: #fff;
+	}
+}

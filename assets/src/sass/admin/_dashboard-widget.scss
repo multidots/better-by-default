@@ -1,0 +1,23 @@
+#better_by_default_custom_dashboard_widget {
+	.inside {
+		ul {
+			padding-left: 10px;
+			list-style: disc;
+			margin-left: 5px;
+			margin-top: 0;
+		}
+		h4 {
+			font-weight: 600;
+		}
+		.quick-links {
+			border-bottom: 1px solid #f0f0f1;
+			margin: 0 -12px 6px -12px;
+			padding: 8px 12px 4px;
+		}
+		.optimization-tips {
+			border-top: 1px solid #f0f0f1;
+			margin: 0 -12px 6px -12px;
+			padding: 8px 12px 4px;
+		}
+	}
+}

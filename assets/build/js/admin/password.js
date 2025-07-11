@@ -1,0 +1,1 @@
+(()=>{const{betterByDefaultPasswords:e}=window,s=document.querySelectorAll("#your-profile .wp-pwd, #resetpassform .wp-pwd");if(s.length){const t=document.createElement("span");t.classList.add("pw-message"),t.innerText=e.message,s[0].appendChild(t)}})();
