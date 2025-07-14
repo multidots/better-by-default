@@ -10,50 +10,39 @@ Better By Default is a WordPress plugin designed to simplify and improve the Wor
 - Performance improvements by disabling non-essential features.
 - Customization options for personalizing the WordPress admin area.
 
-### Usage
-After installation, the plugin can be configured from the Settings > Better By Default page. The plugin will automatically improve security, enhance performance, and simplify the admin area, with additional settings to adjust based on user needs.
-
-### Contributing
-We welcome contributions from the community! If you would like to contribute:
-
-1. Fork the repository.
-2. Make your changes.
-3. Create a pull request.
-4. Make sure to run npm run build before submitting changes to ensure all assets are properly built.
-
-### License
-Better By Default is licensed under the GNU General Public License v3. See the license file for more details.
-
-### Changelog
-1.3 - 27.05.2025 
+## Changelog
+1.3 
 * Minor bug fixes
 
-1.2 - 17.04.2025 
+1.2 
 * Minor bug fixes
 
-1.1 - 07.04.2025 
+1.1 
 * Resolved display and data rendering issues in the Activity Log Table
 * Fixed bug affecting the “Disable Crawling” functionality
 * Fixed issue with the “Enable Public Page Preview” feature not working as expected
 
-1.0.0 - 24.01.2025 
+1.0.0 
 * Initial release.
 * Added admin enhancement features.
 * Improved security settings for the WordPress backend.
 * Provided options to boost performance by removing unnecessary features.
 
-### Upgrade Notice
+## Upgrade Notice
 1.0.0 
 Initial release.
 
 This format should make your `readme.md` clear, informative, and helpful for users and developers alike.
 
 
-### Credits
+## Credits
 Better By Default is developed by Multidots. We appreciate the contributions from the open-source community.
 
-### Support
+## Support
 For support or questions, please [open an issue](https://github.com/multidots/better-by-default/issues) or contact us via our website at [multidots.com](http://multidots.com/).
+
+## License
+Better By Default is licensed under the GNU General Public License v3. See the license file for more details.
 
 
 ## See potential here?
