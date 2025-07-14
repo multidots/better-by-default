@@ -24,38 +24,6 @@ Better By Default is a WordPress plugin designed to simplify and improve the Wor
 2. Activate the plugin via the 'Plugins' menu in WordPress.
 3. Navigate to **Settings > Better By Default** to configure the plugin settings.
 
-## Build Process
-
-To work on the plugin locally, follow these steps:
-
-### Install Dependencies
-
-1. Ensure you have the correct Node.js version:
-
-   ```bash
-   cd assets
-   nvm use
-   ```
-2. Install all necessary Node.js dependencies:
-
-    ```bash
-    npm install
-    ```
-
-### During development
-To build the development version of the plugin assets:
-
-```bash
-npm start
-```
-
-### Production
-To build the production version of the plugin assets, run:
-
-```bash
-npm run build
-```
-
 ## Usage
 After installation, the plugin can be configured from the Settings > Better By Default page. The plugin will automatically improve security, enhance performance, and simplify the admin area, with additional settings to adjust based on user needs.
 
@@ -77,22 +45,25 @@ Better By Default is developed by Multidots. We appreciate the contributions fro
 For support, please visit our website or submit an issue on the GitHub repository.
 
 ## Changelog
-1.0.0
+= 1.3- 27.05.2025 =
+* Minor bug fixes
 
-Initial release with admin enhancements, security settings, and performance improvements.
+= 1.2 - 17.04.2025 =
+* Minor bug fixes
 
+= 1.1 - 07.04.2025 =
+* Resolved display and data rendering issues in the Activity Log Table
+* Fixed bug affecting the “Disable Crawling” functionality
+* Fixed issue with the “Enable Public Page Preview” feature not working as expected
 
-### Key Sections Explained
-1. **Header**: A brief description of the plugin, including who developed it and what it is used for.
-2. **Features**: A list highlighting the main capabilities of the plugin.
-3. **Requirements**: Dependencies for the development environment.
-4. **Installation**: Step-by-step instructions on installing and activating the plugin.
-5. **Development Setup**: Information on setting up the development environment, installing dependencies, and building the plugin.
-6. **Usage**: Where to find the plugin settings and how to start using it.
-7. **Contributing**: How to contribute to the project.
-8. **License**: Licensing information.
-9. **Credits**: Who made the plugin.
-10. **Support**: Where to get help or raise issues.
-11. **Changelog**: Version history, which is important for users to track updates.
+= 1.0.0 - 24.01.2025 =
+* Initial release.
+* Added admin enhancement features.
+* Improved security settings for the WordPress backend.
+* Provided options to boost performance by removing unnecessary features.
+
+== Upgrade Notice ==
+= 1.0.0 =
+Initial release.
 
 This format should make your `readme.md` clear, informative, and helpful for users and developers alike.
