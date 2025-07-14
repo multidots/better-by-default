@@ -46,7 +46,7 @@ Better By Default is developed by Multidots. We appreciate the contributions fro
 For support, please visit our website or submit an issue on the GitHub repository.
 
 ## Changelog
-1.3- 27.05.2025 
+1.3 - 27.05.2025 
 * Minor bug fixes
 
 1.2 - 17.04.2025 
