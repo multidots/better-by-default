@@ -1,8 +1,6 @@
 # Better By Default Plugin
 ![better-by-default-banner](https://github.com/user-attachments/assets/133b8d8b-adea-483e-bf2b-60ee0d3116d0)
 
-WordPress Plugin for [Multidots](https://www.multidots.com/)
-
 Better By Default is a WordPress plugin designed to simplify and improve the WordPress admin experience. It enhances security, performance, and personalization options by removing unnecessary features, improving existing ones, and making WordPress easier to use for both developers and administrators.
 
 ## Features
