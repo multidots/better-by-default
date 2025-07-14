@@ -46,25 +46,25 @@ Better By Default is developed by Multidots. We appreciate the contributions fro
 For support, please visit our website or submit an issue on the GitHub repository.
 
 ## Changelog
-= 1.3- 27.05.2025 =
+= 1.3- 27.05.2025 
 * Minor bug fixes
 
-= 1.2 - 17.04.2025 =
+= 1.2 - 17.04.2025 
 * Minor bug fixes
 
-= 1.1 - 07.04.2025 =
-* Resolved display and data rendering issues in the Activity Log Table
-* Fixed bug affecting the “Disable Crawling” functionality
-* Fixed issue with the “Enable Public Page Preview” feature not working as expected
+= 1.1 - 07.04.2025 
+1. Resolved display and data rendering issues in the Activity Log Table
+2. Fixed bug affecting the “Disable Crawling” functionality
+3. Fixed issue with the “Enable Public Page Preview” feature not working as expected
 
-= 1.0.0 - 24.01.2025 =
-* Initial release.
-* Added admin enhancement features.
-* Improved security settings for the WordPress backend.
-* Provided options to boost performance by removing unnecessary features.
+= 1.0.0 - 24.01.2025 
+1. Initial release.
+2. Added admin enhancement features.
+3. Improved security settings for the WordPress backend.
+4. Provided options to boost performance by removing unnecessary features.
 
-== Upgrade Notice ==
-= 1.0.0 =
+## Upgrade Notice
+= 1.0.0 
 Initial release.
 
 This format should make your `readme.md` clear, informative, and helpful for users and developers alike.
