@@ -1,4 +1,5 @@
 # Better By Default Plugin
+![better-by-default-banner](https://github.com/user-attachments/assets/133b8d8b-adea-483e-bf2b-60ee0d3116d0)
 
 WordPress Plugin for [Multidots](https://www.multidots.com/)
 
@@ -67,3 +68,6 @@ For support, please visit our website or submit an issue on the GitHub repositor
 Initial release.
 
 This format should make your `readme.md` clear, informative, and helpful for users and developers alike.
+
+## See potential here?
+<a href="https://www.multidots.com/contact-us/" rel="nofollow"><img width="1692" height="296" alt="01-GitHub Footer" src="https://github.com/user-attachments/assets/6b9d63e7-3990-472d-acb9-5e4e51b446fc" /></a>
