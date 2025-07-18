@@ -4,7 +4,7 @@ Donate link: https://www.multidots.com/
 Tags: admin enhancement, security, performance, admin simplify, personalization
 Stable tag: 1.3
 Tested up to: 6.8
-License: GPL-2.0+
+License: GPL-3.0+
 License URI: http://www.gnu.org/licenses/gpl.html
 
 Boost your WordPress site with the Better By Default Plugin for simplicity, security, and performance, ensuring a clean and efficient experience.
