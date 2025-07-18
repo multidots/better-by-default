@@ -28,11 +28,6 @@ Better By Default is a WordPress plugin designed to simplify and improve the Wor
 * Improved security settings for the WordPress backend.
 * Provided options to boost performance by removing unnecessary features.
 
-## Upgrade Notice
-1.0.0 
-Initial release.
-
-
 ## Credits
 Better By Default is developed by Multidots. We appreciate the contributions from the open-source community.
 
